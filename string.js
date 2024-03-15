@@ -80,4 +80,38 @@
 // console.log(ans)
 
 
+// 7..............................................STARTS WITH
+// function starts_with(str, target){
+//     let count = 0;
+//    for(let i = 0; i < target.length; ++i){
+//      if(str[i] == target[i]){
+//         count++;
+//      }
+//    }
+//    if(count == target.length) return true;
+//    return false;
+// }
 
+// let ans = starts_with("Aditya Kumar Singh", "Aditya");
+
+// console.log(ans)
+
+
+// 8..............................................ENDS WITH
+
+function starts_with(str, target){
+    let count = 0;
+    let len = target.length - 1;
+   for(let i = str.length - 1; len >= 0; --i){
+     if(str[i] == target[len]){
+        len--;
+        count++;
+     }
+   }
+   if(count == target.length) return true;
+   return false;
+}
+
+let ans = starts_with("Aditya Kumar Singh", "a");
+
+console.log(ans)
