@@ -10,7 +10,21 @@ let array = [ [ [100,200,300], 20], [30, 40]];
 
 -----------> OPERATIONS
 1. push(elements); ------> returns length of new array after insertion.
+
 2. pop(); ---------------> it returns deleted value from array.
+
 3. unshift(elements);----> returns updated length of array after insertion.
+
 4. shift(); -------------> it returns deleted value from array.
+
+5. splice(start, numberOfElements) -----> use to delete value from array in continuous fashion.
+     |-----------> It always returns array of deleted elements.
+     |-----------> Updation using splice function 
+                             |--------> array.splice(start, numberOfElements, updatingValue);
+     |------> Adding
+
+6. slice(startIndex, IndexOneMoreThanTargetIndex);
+
+7. forEach(callBackFunction);   -------> ex:- forEach((value, index, array) => OPERATIONS );
+
 

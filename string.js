@@ -116,8 +116,7 @@
 
 // console.log(ans)
 
-let array =  [10,20];
-let arr = [30,40];
-
-array.push(...arr);
+let array =  [10,20,30,40,50,60];
+let brr = [0,1,2,3];
+array.splice(2,3,...brr);
 console.log(array)
