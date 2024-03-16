@@ -1,0 +1,2 @@
+Q1. push and pop custom function
+Q2. write a program to convert multidimensional arrays to 1-D Arrray without using any built-in functions. eliminate Duplicate elements.

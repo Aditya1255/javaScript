@@ -1,0 +1,16 @@
+------------------------------------------------16/03/24---------------------------------------------------------------------------
+---------> 1-D Array
+1. let array = [1,2,3,4,5];
+2. let array = new Array(1,2,3,4,5);
+3. let array = Array.of(1,2,3,4,5);
+4. let array = Array.from(1,2,3,4,5);
+
+---------> Multi-Dimensional Array
+let array = [ [ [100,200,300], 20], [30, 40]];
+
+-----------> OPERATIONS
+1. push(elements); ------> returns length of new array after insertion.
+2. pop(); ---------------> it returns deleted value from array.
+3. unshift(elements);----> returns updated length of array after insertion.
+4. shift(); -------------> it returns deleted value from array.
+

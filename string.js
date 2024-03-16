@@ -99,19 +99,25 @@
 
 // 8..............................................ENDS WITH
 
-function starts_with(str, target){
-    let count = 0;
-    let len = target.length - 1;
-   for(let i = str.length - 1; len >= 0; --i){
-     if(str[i] == target[len]){
-        len--;
-        count++;
-     }
-   }
-   if(count == target.length) return true;
-   return false;
-}
+// function starts_with(str, target){
+//     let count = 0;
+//     let len = target.length - 1;
+//    for(let i = str.length - 1; len >= 0; --i){
+//      if(str[i] == target[len]){
+//         len--;
+//         count++;
+//      }
+//    }
+//    if(count == target.length) return true;
+//    return false;
+// }
 
-let ans = starts_with("Aditya Kumar Singh", "a");
+// let ans = starts_with("Aditya Kumar Singh", "a");
 
-console.log(ans)
+// console.log(ans)
+
+let array =  [10,20];
+let arr = [30,40];
+
+array.push(...arr);
+console.log(array)
