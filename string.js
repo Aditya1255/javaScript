@@ -116,7 +116,63 @@
 
 // console.log(ans)
 
-let array =  [10,20,30,40,50,60];
-let brr = [0,1,2,3];
-array.splice(2,3,...brr);
-console.log(array)
+// let array =  [10,20,30,40,50,60];
+// let brr = [0,1,2,3];
+// array.splice(2,3,...brr);
+// console.log(array)
+
+
+// //.....................................................PUSH
+// let array =[10,20,30,40,50];
+// array[array.length] = 60;
+// console.log(array)
+
+
+// //.....................................................POP
+// let array =[10,20,30,40,50];
+// array.length = array.length - 1;
+// console.log(array)
+
+
+
+
+
+ //.....................................................SLICE
+// function slice(array, ...pos){
+//     pos.sort();
+//     for(let i = 0; i < pos.length; ++i){
+//         pos[i] = pos[i] - 1;
+//     }
+//     for(let p of pos){
+//         for(let i = p; i< array.length - 1; i++){
+//             array[i] = array[i + 1];
+//         }
+//         array.length = array.length - 1;
+//     }
+// }
+// let array = [10,20,30,40,50,60];
+// slice(array, 4, 2, 5);
+
+// console.log(array)
+
+
+
+//...................................................CUSTOM MAP FUNCTION
+// function mapper(arr, fn){
+//     let result = [];
+//     for(let i = 0; i < arr.length; ++i){
+//         let res = fn(arr[i], i);
+//         result.push(res);
+//     }
+//     return result;
+// }
+
+// let array = [10,20,30,40,50];
+// let x = mapper(array, (value, index) =>{
+//     return value * (index+1);
+// })
+
+// console.log(x)
+
+
+
